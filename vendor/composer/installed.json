@@ -1,5 +1,46 @@
 [
     {
+        "name": "liangphp/orm",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/liangphp/orm.git",
+            "reference": "cccd4f57a4d54fcb543d570d226de501a97e1b07"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/liangphp/orm/zipball/cccd4f57a4d54fcb543d570d226de501a97e1b07",
+            "reference": "cccd4f57a4d54fcb543d570d226de501a97e1b07",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "time": "2020-02-03T12:36:11+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "bl\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "liang",
+                "email": "23426945@qq.com"
+            }
+        ],
+        "description": "php orm"
+    },
+    {
         "name": "symfony/polyfill-mbstring",
         "version": "v1.13.1",
         "version_normalized": "1.13.1.0",

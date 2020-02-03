@@ -1,5 +1,6 @@
 {
     "require": {
-        "symfony/var-dumper": "^5.0"
+        "symfony/var-dumper": "^5.0",
+        "liangphp/orm": "^1.0"
     }
 }

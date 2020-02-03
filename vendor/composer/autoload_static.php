@@ -12,6 +12,10 @@ class ComposerStaticInit5550bd847b5af8f050869fcc0304a77a
     );
 
     public static $prefixLengthsPsr4 = array (
+        'b' => 
+        array (
+            'bl\\' => 3,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
@@ -20,6 +24,10 @@ class ComposerStaticInit5550bd847b5af8f050869fcc0304a77a
     );
 
     public static $prefixDirsPsr4 = array (
+        'bl\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/liangphp/orm/src',
+        ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',

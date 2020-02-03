@@ -1,6 +1,7 @@
 <?php
 namespace core;
 
+use bl\Db;
 use core\lib\Config;
 use core\lib\Log;
 use core\lib\Exceptions;
@@ -13,6 +14,9 @@ class Start
 	// 启动框架
 	public static function run()
 	{
+		// 设置数据库连接参数
+		Db::setConfig(\core\lib\Config::get('database'));
+
 		// 设置默认时区
 		$timezone = \core\lib\Config::get('app.default_timezone');
 		date_default_timezone_set($timezone);
